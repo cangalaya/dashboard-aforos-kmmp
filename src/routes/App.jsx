@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "../App.css";
 import Home from "../pages/Home"
 import Aforos from "../pages/Aforos"

@@ -13,27 +13,27 @@ const NavBar = () => {
     <nav className={`sidebar sidebar-offcanvas menuLateral ${toggle ? "active" : ""}`} id="sidebar">
       <ul className="nav">
         <li className="nav-item">
-          <a className="nav-link" href="/">
+          <a className="nav-link" href="#/">
             <i className="mdi mdi-grid-large menu-icon" />
             <span className="menu-title">Dashboard</span>
           </a>
         </li>
         <li className="nav-item nav-category">Realtime</li>
         <li className="nav-item">
-          <a className="nav-link" href="/aforos">
+          <a className="nav-link" href="#/aforos">
             <i className="menu-icon mdi mdi-floor-plan" />
             <span className="menu-title">Aforos</span>
           </a>
         </li>
         <li className="nav-item nav-category">Reportes</li>
         <li className="nav-item">
-          <a className="nav-link" href="/reportar-contagio">
+          <a className="nav-link" href="#/reportar-contagio">
             <i className="menu-icon mdi mdi-card-text-outline" />
             <span className="menu-title">Reportar Contagio</span>
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/#">
+          <a className="nav-link" href="#/#">
             <i className="menu-icon mdi mdi-layers-outline" />
             <span className="menu-title">Configuración</span>
           </a>
