@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import "../App.css";
 import Home from "../pages/Home"
 import Aforos from "../pages/Aforos"
@@ -32,7 +32,7 @@ import { ProtectedRoute } from "../components/ProtectedRoute";
 const App = () => {
 
   return (
-    <BrowserRouter>
+    <HashRouter >
       <AuthProvider>
         <Routes>
           <Route path="/" element={
@@ -59,7 +59,7 @@ const App = () => {
             <Route exact path="/charts" element={<ExcesosAforos />} /> */}
         </Routes>
       </AuthProvider >
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
